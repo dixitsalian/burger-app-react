@@ -16,7 +16,6 @@ class Layout extends Component {
 
     sideDrawerToggleHandler = () => {
         this.setState((prevState) => { 
-            console.log(prevState);
             return {showSideDrawer: !prevState.showSideDrawer
             }
         });
